@@ -1,0 +1,75 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 0fr 2fr 0.5fr;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.message {
+  font-size: 2em;
+  margin: 1em;
+  grid-column: 2/4;
+  grid-row: 2;
+  color: rgb(25, 118, 149);
+  text-align: left;
+  font-weight: bolder;
+}
+.group {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+  margin: 2em;
+}
+
+table {
+  align-self: center;
+  grid-column: 2/4;
+  grid-row: 2;
+  justify-self: normal;
+  text-align: left;
+  width: 80%;
+  margin: 2em;
+  margin-top: 5em;
+}
+th,
+td {
+  padding: 2em;
+  font-size: 1.2em;
+}
+th {
+  background-color: #547454;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.pagi {
+  grid-column: 2/3;
+  grid-row: 3;
+  justify-self: center;
+}
+.click {
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: lightgray;
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 1em;
+  margin-bottom: 2.4em;
+  height: auto;
+}
+.title > p {
+  font-weight: bolder;
+  margin-left: 2em;
+  display: inline;
+  color: grey;
+}
+.navbar .logo {
+  font-size: 2.7em;
+  color: darkcyan;
+}
+.inactive {
+  color: grey;
+}

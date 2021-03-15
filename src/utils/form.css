@@ -1,0 +1,11 @@
+.formStyle {
+  margin-bottom: 1em;
+  color: rgb(6, 109, 134);
+  font-weight: bold;
+}
+.add {
+  margin-top: 1em;
+}
+.btn-primary:hover {
+  background-color: #007bff;
+}

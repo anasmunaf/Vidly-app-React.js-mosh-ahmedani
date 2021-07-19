@@ -1,6 +1,7 @@
-import config from "../config.json";
+/** @format */
+
 import http from "./http";
 
 export default function newGenres() {
-  return http.get(`${config.apiEndpoint}/genres`);
+  return http.get(`/genres`);
 }
